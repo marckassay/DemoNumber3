@@ -42,7 +42,7 @@ export class MyApp {
 
       const childComponent = this.componentFactoryResolver.resolveComponentFactory(LanguagePage);
       let languagepage = this.rightMenuInnerHTML.createComponent(childComponent)
-      languagepage.instance.title = "Select prefered language:";
+      languagepage.instance.title = "(language)";
     });
   }
 

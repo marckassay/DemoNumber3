@@ -8,7 +8,6 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
-import { OptionsComponent } from '../components/options/options';
 import { LanguagePage } from '../pages/language/language';
 
 @NgModule({
